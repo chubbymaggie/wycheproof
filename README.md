@@ -196,3 +196,12 @@ If you'd like to talk to our developers or get notified about major new
 tests, you may want to subscribe to our
 [mailing list](https://groups.google.com/forum/#!forum/wycheproof-users). To
 join, simply send an empty mail to wycheproof-users+subscribe@googlegroups.com.
+
+
+### Testing C/C++ and Java libraries
+
+C/C++:
+https://github.com/google/tink/blob/3cd626904c92319a07142e0ed82a0206350be93b/cc/subtle/ecdsa_verify_boringssl_test.cc#L105
+
+Java:
+https://github.com/google/tink/blob/de220cc69ac7dab4841683f209f746f249988be9/java/src/test/java/com/google/crypto/tink/subtle/EcdsaVerifyJceTest.java#L44
